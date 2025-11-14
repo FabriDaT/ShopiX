@@ -30,7 +30,7 @@ const AppRoutes = () => {
 const App = () => {
   return (
     <ShoppingCartProvider>
-      <BrowserRouter basename="/ShopiX/">
+      <BrowserRouter>
         <div className="min-h-screen flex flex-col">
           <Navbar />
           <main className="flex-1">
